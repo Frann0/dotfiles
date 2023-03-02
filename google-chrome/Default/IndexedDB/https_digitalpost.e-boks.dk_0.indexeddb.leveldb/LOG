@@ -1,7 +1,0 @@
-2023/02/04-16:23:55.156 290bd Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_digitalpost.e-boks.dk_0.indexeddb.leveldb since it was missing.
-2023/02/04-16:23:55.158 290bd Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_digitalpost.e-boks.dk_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/04-16:23:55.184 290ae Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/02/04-16:34:38.754 29452 Level-0 table #5: started
-2023/02/04-16:34:38.755 29452 Level-0 table #5: 5549 bytes OK
-2023/02/04-16:34:38.756 29452 Delete type=0 #3
-2023/02/04-16:34:38.756 29452 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

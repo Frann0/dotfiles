@@ -1,7 +1,0 @@
-2023/02/13-15:15:32.221 def Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/13-15:15:32.221 def Recovering log #3
-2023/02/13-15:15:32.222 def Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/000003.log 
-2023/02/13-15:38:52.468 df0 Level-0 table #5: started
-2023/02/13-15:38:52.470 df0 Level-0 table #5: 116062 bytes OK
-2023/02/13-15:38:52.472 df0 Delete type=0 #3
-2023/02/13-15:38:52.472 df0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

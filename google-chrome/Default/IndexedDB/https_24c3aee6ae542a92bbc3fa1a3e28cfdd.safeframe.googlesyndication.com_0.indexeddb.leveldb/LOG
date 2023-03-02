@@ -1,6 +1,0 @@
-2023/01/24-19:34:12.550 2cbc8 Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_24c3aee6ae542a92bbc3fa1a3e28cfdd.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
-2023/01/24-19:34:12.552 2cbc8 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_24c3aee6ae542a92bbc3fa1a3e28cfdd.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/01/24-19:34:38.696 2d455 Level-0 table #5: started
-2023/01/24-19:34:38.699 2d455 Level-0 table #5: 460 bytes OK
-2023/01/24-19:34:38.701 2d455 Delete type=0 #3
-2023/01/24-19:34:38.701 2d455 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

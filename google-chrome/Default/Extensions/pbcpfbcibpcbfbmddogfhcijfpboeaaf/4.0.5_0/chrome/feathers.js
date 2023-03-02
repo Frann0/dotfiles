@@ -1,1 +1,0 @@
-import{AMINO_API_URL}from"../env.js";import{Feathers}from"./feathers/client.js";import{preloadStyles}from"./background/style-messenger.js";const client=new Feathers(AMINO_API_URL),optionsService=(client.onAuthenticated(preloadStyles),client.service("options")),stylesService=client.service("styles");export default client;export{optionsService,stylesService};

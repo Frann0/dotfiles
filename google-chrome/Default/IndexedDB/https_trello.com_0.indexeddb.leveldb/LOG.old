@@ -1,6 +1,0 @@
-2023/02/12-15:18:49.758 def Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/12-15:18:49.758 def Recovering log #3
-2023/02/12-15:18:49.777 def Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/000003.log 
-2023/02/12-16:02:24.726 df0 Level-0 table #5: started
-2023/02/12-16:02:24.751 df0 Level-0 table #5: 1649074 bytes OK
-2023/02/12-16:02:24.753 df0 Delete type=0 #3

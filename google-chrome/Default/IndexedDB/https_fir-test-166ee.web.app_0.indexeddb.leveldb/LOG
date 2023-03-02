@@ -1,7 +1,0 @@
-2023/02/06-20:40:21.955 40f01 Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_fir-test-166ee.web.app_0.indexeddb.leveldb since it was missing.
-2023/02/06-20:40:21.957 40f01 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_fir-test-166ee.web.app_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/06-20:40:22.137 410d7 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/02/06-20:40:38.418 40bcb Level-0 table #5: started
-2023/02/06-20:40:38.419 40bcb Level-0 table #5: 7012 bytes OK
-2023/02/06-20:40:38.420 40bcb Delete type=0 #3
-2023/02/06-20:40:38.420 40bcb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

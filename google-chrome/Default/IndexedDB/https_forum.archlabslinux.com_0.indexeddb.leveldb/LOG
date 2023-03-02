@@ -1,6 +1,0 @@
-2023/02/21-18:32:55.310 1889 Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb since it was missing.
-2023/02/21-18:32:55.313 1889 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/21-18:34:51.971 188a Level-0 table #5: started
-2023/02/21-18:34:51.979 188a Level-0 table #5: 87705 bytes OK
-2023/02/21-18:34:51.982 188a Delete type=0 #3
-2023/02/21-18:34:51.983 188a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
