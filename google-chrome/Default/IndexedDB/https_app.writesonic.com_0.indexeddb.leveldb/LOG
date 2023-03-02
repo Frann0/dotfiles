@@ -1,0 +1,6 @@
+2023/01/20-22:02:09.299 ea3e Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_app.writesonic.com_0.indexeddb.leveldb since it was missing.
+2023/01/20-22:02:09.301 ea3e Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_app.writesonic.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/21-19:18:17.736 14cc1 Level-0 table #5: started
+2023/01/21-19:18:17.738 14cc1 Level-0 table #5: 1293 bytes OK
+2023/01/21-19:18:17.740 14cc1 Delete type=0 #3
+2023/01/21-19:18:17.740 14cc1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

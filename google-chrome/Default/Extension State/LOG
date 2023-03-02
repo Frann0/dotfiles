@@ -1,0 +1,147 @@
+2023/02/22-17:15:41.256 37a9 Reusing MANIFEST /home/franno/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2023/02/22-17:15:41.256 37a9 Recovering log #209
+2023/02/22-17:15:41.258 37a9 Reusing old log /home/franno/.config/google-chrome/Default/Extension State/000209.log 
+2023/02/22-19:30:06.402 37a8 Level-0 table #213: started
+2023/02/22-19:30:06.494 37a8 Level-0 table #213: 1335716 bytes OK
+2023/02/22-19:30:06.502 37a8 Delete type=0 #209
+2023/02/22-21:44:07.961 37a8 Level-0 table #215: started
+2023/02/22-21:44:08.040 37a8 Level-0 table #215: 799755 bytes OK
+2023/02/22-21:44:08.043 37a8 Delete type=0 #212
+2023/02/23-14:28:52.499 37a8 Level-0 table #217: started
+2023/02/23-14:28:52.527 37a8 Level-0 table #217: 742207 bytes OK
+2023/02/23-14:28:52.530 37a8 Delete type=0 #214
+2023/02/23-14:28:52.531 37a8 Compacting 4@0 + 1@1 files
+2023/02/23-14:28:52.548 37a8 Generated table #218@0: 10 keys, 14494 bytes
+2023/02/23-14:28:52.548 37a8 Compacted 4@0 + 1@1 files => 14494 bytes
+2023/02/23-14:28:52.549 37a8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/23-14:28:52.549 37a8 Delete type=2 #210
+2023/02/23-14:28:52.549 37a8 Delete type=2 #213
+2023/02/23-14:28:52.549 37a8 Delete type=2 #215
+2023/02/23-14:28:52.549 37a8 Delete type=2 #208
+2023/02/23-14:28:52.549 37a8 Delete type=2 #217
+2023/02/23-16:47:53.148 37a8 Level-0 table #220: started
+2023/02/23-16:47:53.183 37a8 Level-0 table #220: 729205 bytes OK
+2023/02/23-16:47:53.187 37a8 Delete type=0 #216
+2023/02/23-19:31:59.967 37a7 Level-0 table #222: started
+2023/02/23-19:31:59.994 37a7 Level-0 table #222: 735653 bytes OK
+2023/02/23-19:31:59.996 37a7 Delete type=0 #219
+2023/02/23-21:52:00.919 37a8 Level-0 table #224: started
+2023/02/23-21:52:00.940 37a8 Level-0 table #224: 737851 bytes OK
+2023/02/23-21:52:00.943 37a8 Delete type=0 #221
+2023/02/24-10:49:41.255 37a7 Level-0 table #226: started
+2023/02/24-10:49:41.267 37a7 Level-0 table #226: 745379 bytes OK
+2023/02/24-10:49:41.270 37a7 Delete type=0 #223
+2023/02/24-10:49:41.270 37a7 Compacting 4@0 + 1@1 files
+2023/02/24-10:49:41.284 37a7 Generated table #227@0: 10 keys, 14483 bytes
+2023/02/24-10:49:41.284 37a7 Compacted 4@0 + 1@1 files => 14483 bytes
+2023/02/24-10:49:41.285 37a7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/24-10:49:41.285 37a7 Delete type=2 #218
+2023/02/24-10:49:41.285 37a7 Delete type=2 #224
+2023/02/24-10:49:41.285 37a7 Delete type=2 #222
+2023/02/24-10:49:41.285 37a7 Delete type=2 #226
+2023/02/24-10:49:41.285 37a7 Delete type=2 #220
+2023/02/24-14:23:11.906 37a8 Level-0 table #229: started
+2023/02/24-14:23:11.954 37a8 Level-0 table #229: 733051 bytes OK
+2023/02/24-14:23:11.957 37a8 Delete type=0 #225
+2023/02/24-21:21:35.652 37a7 Level-0 table #231: started
+2023/02/24-21:21:35.675 37a7 Level-0 table #231: 741448 bytes OK
+2023/02/24-21:21:35.678 37a7 Delete type=0 #228
+2023/02/25-13:26:11.702 37a8 Level-0 table #233: started
+2023/02/25-13:26:11.741 37a8 Level-0 table #233: 735125 bytes OK
+2023/02/25-13:26:11.744 37a8 Delete type=0 #230
+2023/02/25-15:46:06.617 37a8 Level-0 table #235: started
+2023/02/25-15:46:06.640 37a8 Level-0 table #235: 731172 bytes OK
+2023/02/25-15:46:06.646 37a8 Delete type=0 #232
+2023/02/25-15:46:06.648 24adc Compacting 4@0 + 1@1 files
+2023/02/25-15:46:06.681 24adc Generated table #236@0: 10 keys, 14469 bytes
+2023/02/25-15:46:06.681 24adc Compacted 4@0 + 1@1 files => 14469 bytes
+2023/02/25-15:46:06.682 24adc compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/25-15:46:06.682 24adc Delete type=2 #233
+2023/02/25-15:46:06.683 24adc Delete type=2 #235
+2023/02/25-15:46:06.683 24adc Delete type=2 #229
+2023/02/25-15:46:06.683 24adc Delete type=2 #227
+2023/02/25-15:46:06.683 24adc Delete type=2 #231
+2023/02/25-18:22:11.903 37a8 Level-0 table #238: started
+2023/02/25-18:22:11.928 37a8 Level-0 table #238: 736831 bytes OK
+2023/02/25-18:22:11.932 37a8 Delete type=0 #234
+2023/02/25-21:39:01.756 37a8 Level-0 table #240: started
+2023/02/25-21:39:01.791 37a8 Level-0 table #240: 737155 bytes OK
+2023/02/25-21:39:01.794 37a8 Delete type=0 #237
+2023/02/26-11:06:49.685 37a8 Level-0 table #242: started
+2023/02/26-11:06:49.735 37a8 Level-0 table #242: 738040 bytes OK
+2023/02/26-11:06:49.738 37a8 Delete type=0 #239
+2023/02/26-13:26:50.759 37a8 Level-0 table #244: started
+2023/02/26-13:26:50.779 37a8 Level-0 table #244: 736640 bytes OK
+2023/02/26-13:26:50.784 37a8 Delete type=0 #241
+2023/02/26-13:26:50.785 37a8 Compacting 4@0 + 1@1 files
+2023/02/26-13:26:50.809 37a8 Generated table #245@0: 10 keys, 14480 bytes
+2023/02/26-13:26:50.809 37a8 Compacted 4@0 + 1@1 files => 14480 bytes
+2023/02/26-13:26:50.810 37a8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/26-13:26:50.810 37a8 Delete type=2 #236
+2023/02/26-13:26:50.810 37a8 Delete type=2 #242
+2023/02/26-13:26:50.810 37a8 Delete type=2 #240
+2023/02/26-13:26:50.810 37a8 Delete type=2 #238
+2023/02/26-13:26:50.810 37a8 Delete type=2 #244
+2023/02/26-15:46:51.693 37a8 Level-0 table #247: started
+2023/02/26-15:46:51.747 37a8 Level-0 table #247: 730667 bytes OK
+2023/02/26-15:46:51.751 37a8 Delete type=0 #243
+2023/02/26-19:51:26.420 37a8 Level-0 table #249: started
+2023/02/26-19:51:26.448 37a8 Level-0 table #249: 736296 bytes OK
+2023/02/26-19:51:26.451 37a8 Delete type=0 #246
+2023/02/26-22:06:27.848 37a7 Level-0 table #251: started
+2023/02/26-22:06:27.893 37a7 Level-0 table #251: 725272 bytes OK
+2023/02/26-22:06:27.898 37a7 Delete type=0 #248
+2023/02/27-13:03:23.205 37a7 Level-0 table #253: started
+2023/02/27-13:03:23.258 37a7 Level-0 table #253: 733489 bytes OK
+2023/02/27-13:03:23.261 37a7 Delete type=0 #250
+2023/02/27-13:03:23.262 37a7 Compacting 4@0 + 1@1 files
+2023/02/27-13:03:23.294 37a7 Generated table #254@0: 10 keys, 14482 bytes
+2023/02/27-13:03:23.295 37a7 Compacted 4@0 + 1@1 files => 14482 bytes
+2023/02/27-13:03:23.295 37a7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/27-13:03:23.296 37a7 Delete type=2 #247
+2023/02/27-13:03:23.296 37a7 Delete type=2 #251
+2023/02/27-13:03:23.296 37a7 Delete type=2 #253
+2023/02/27-13:03:23.296 37a7 Delete type=2 #245
+2023/02/27-13:03:23.296 37a7 Delete type=2 #249
+2023/02/27-15:23:24.106 37a8 Level-0 table #256: started
+2023/02/27-15:23:24.143 37a8 Level-0 table #256: 735337 bytes OK
+2023/02/27-15:23:24.149 37a8 Delete type=0 #252
+2023/02/27-17:42:24.939 37a7 Level-0 table #258: started
+2023/02/27-17:42:24.981 37a7 Level-0 table #258: 735309 bytes OK
+2023/02/27-17:42:24.985 37a7 Delete type=0 #255
+2023/02/27-20:24:29.113 37a8 Level-0 table #260: started
+2023/02/27-20:24:29.150 37a8 Level-0 table #260: 729229 bytes OK
+2023/02/27-20:24:29.154 37a8 Delete type=0 #257
+2023/02/28-12:31:50.364 37a7 Level-0 table #262: started
+2023/02/28-12:31:50.466 37a7 Level-0 table #262: 739487 bytes OK
+2023/02/28-12:31:50.475 37a7 Delete type=0 #259
+2023/02/28-12:31:50.476 37a7 Compacting 4@0 + 1@1 files
+2023/02/28-12:31:50.525 37a7 Generated table #263@0: 10 keys, 14484 bytes
+2023/02/28-12:31:50.525 37a7 Compacted 4@0 + 1@1 files => 14484 bytes
+2023/02/28-12:31:50.526 37a7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/28-12:31:50.526 37a7 Delete type=2 #262
+2023/02/28-12:31:50.526 37a7 Delete type=2 #258
+2023/02/28-12:31:50.526 37a7 Delete type=2 #256
+2023/02/28-12:31:50.526 37a7 Delete type=2 #260
+2023/02/28-12:31:50.526 37a7 Delete type=2 #254
+2023/02/28-14:50:51.257 37a8 Level-0 table #265: started
+2023/02/28-14:50:51.292 37a8 Level-0 table #265: 735572 bytes OK
+2023/02/28-14:50:51.295 37a8 Delete type=0 #261
+2023/02/28-17:12:52.210 37a7 Level-0 table #267: started
+2023/02/28-17:12:52.237 37a7 Level-0 table #267: 733731 bytes OK
+2023/02/28-17:12:52.245 37a7 Delete type=0 #264
+2023/02/28-20:51:01.479 529c7 Level-0 table #269: started
+2023/02/28-20:51:01.493 529c7 Level-0 table #269: 734522 bytes OK
+2023/02/28-20:51:01.496 529c7 Delete type=0 #266
+2023/03/01-21:40:21.319 37a8 Level-0 table #271: started
+2023/03/01-21:40:21.338 37a8 Level-0 table #271: 739112 bytes OK
+2023/03/01-21:40:21.341 37a8 Delete type=0 #268
+2023/03/01-21:40:21.343 37a8 Compacting 4@0 + 1@1 files
+2023/03/01-21:40:21.372 37a8 Generated table #272@0: 10 keys, 14479 bytes
+2023/03/01-21:40:21.372 37a8 Compacted 4@0 + 1@1 files => 14479 bytes
+2023/03/01-21:40:21.373 37a8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/01-21:40:21.373 37a8 Delete type=2 #263
+2023/03/01-21:40:21.373 37a8 Delete type=2 #267
+2023/03/01-21:40:21.373 37a8 Delete type=2 #271
+2023/03/01-21:40:21.373 37a8 Delete type=2 #265
+2023/03/01-21:40:21.374 37a8 Delete type=2 #269

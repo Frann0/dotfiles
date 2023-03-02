@@ -1,0 +1,13 @@
+2023/02/16-15:35:08.399 311bf Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-15:35:08.399 311bf Recovering log #87
+2023/02/16-15:35:08.399 311bf Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/000087.log 
+2023/02/16-15:35:08.469 311c0 Level-0 table #93: started
+2023/02/16-15:35:08.470 311c0 Level-0 table #93: 570 bytes OK
+2023/02/16-15:35:08.472 311c0 Delete type=0 #87
+2023/02/16-15:35:08.472 311c0 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/02/16-15:36:16.873 311c0 Compacting 1@1 + 1@2 files
+2023/02/16-15:36:16.875 311c0 Generated table #94@1: 53 keys, 4508 bytes
+2023/02/16-15:36:16.875 311c0 Compacted 1@1 + 1@2 files => 4508 bytes
+2023/02/16-15:36:16.877 311c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/16-15:36:16.877 311c0 Delete type=2 #93
+2023/02/16-15:36:16.877 311c0 Delete type=2 #90

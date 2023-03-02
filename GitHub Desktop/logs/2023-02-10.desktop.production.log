@@ -1,0 +1,486 @@
+2023-02-10T07:30:47.947Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-02-10T07:30:48.817Z - error: [ui] Could not get Alive web socket URL for 'Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/franno/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:160:32)
+    at Object.subscribeToAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:217:40)
+    at Object._subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:137:20)
+    at subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:116:44)
+2023-02-10T07:30:48.823Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2023-02-10T07:30:48.826Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-02-10T07:30:48.826Z - error: [ui] Could not get Alive web socket URL for 'Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/franno/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:160:32)
+    at Object.subscribeToAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:217:40)
+    at Object._subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:137:20)
+    at Object.subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:116:44)
+2023-02-10T07:30:48.829Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2023-02-10T07:30:48.832Z - info: [ui] [AppStore] loading 9 repositories from store
+2023-02-10T07:30:48.833Z - info: [ui] [AppStore] found account: Frann0 (Mike Handberg Hovedskov)
+2023-02-10T07:30:48.859Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchProtectedBranches (/home/franno/webpack:/[name]/app/src/lib/api.ts:1347:35)
+    at Vn.updateBranchProtectionsFromAPI (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3837:32)
+    at Vn._selectRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1686:10)
+2023-02-10T07:30:48.873Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/hangman'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at Vn.repositoryWithRefreshedGitHubRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3793:31)
+2023-02-10T07:30:48.988Z - warn: [ui] fetchIssues: failed for repository Frann0/hangman
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/franno/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at oF.constructor.refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1798:5)
+2023-02-10T07:30:48.988Z - warn: [ui] Unable to fetch issues for Frann0/hangman
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/franno/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at oF.constructor.refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1798:5)
+2023-02-10T07:30:49.004Z - warn: [ui] fetchMentionables: failed for Frann0/hangman
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchMentionables (/home/franno/webpack:/[name]/app/src/lib/api.ts:1469:35)
+    at rF.constructor.updateMentionables (/home/franno/webpack:/[name]/app/src/lib/stores/github-user-store.ts:90:32)
+2023-02-10T07:30:49.114Z - warn: [ui] fetchAccount: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAccount (/home/franno/webpack:/[name]/app/src/lib/api.ts:818:35)
+    at vn (/home/franno/webpack:/[name]/app/src/lib/api.ts:1657:28)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:219:10
+    at Vn.tryUpdateAccount (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:134:20)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:37
+    at Array.map (<anonymous>)
+    at Vn.refresh (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:21)
+    at Vn.loadInitialState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:2039:24)
+2023-02-10T07:30:49.114Z - warn: [ui] fetchUser: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAccount (/home/franno/webpack:/[name]/app/src/lib/api.ts:818:35)
+    at vn (/home/franno/webpack:/[name]/app/src/lib/api.ts:1657:28)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:219:10
+    at Vn.tryUpdateAccount (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:134:20)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:37
+    at Array.map (<anonymous>)
+    at Vn.refresh (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:21)
+    at Vn.loadInitialState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:2039:24)
+2023-02-10T07:30:49.115Z - warn: [ui] Error refreshing account 'Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAccount (/home/franno/webpack:/[name]/app/src/lib/api.ts:818:35)
+    at vn (/home/franno/webpack:/[name]/app/src/lib/api.ts:1657:28)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:219:10
+    at Vn.tryUpdateAccount (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:134:20)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:37
+    at Array.map (<anonymous>)
+    at Vn.refresh (/home/franno/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:21)
+    at Vn.loadInitialState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:2039:24)
+2023-02-10T07:30:49.142Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-10T07:30:49.144Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-02-10T07:30:49.145Z - error: [ui] Could not get Alive web socket URL for 'Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/franno/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:160:32)
+    at Object.subscribeToAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:217:40)
+    at Object._subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:137:20)
+    at subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:116:44)
+2023-02-10T07:30:49.150Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-02-10T07:30:49.152Z - error: [ui] Could not get Alive web socket URL for 'Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/franno/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:160:32)
+    at Object.subscribeToAccount (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:217:40)
+    at Object._subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:137:20)
+    at subscribeToAccounts (/home/franno/webpack:/[name]/app/src/lib/stores/alive-store.ts:116:44)
+2023-02-10T07:30:49.153Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2023-02-10T07:30:49.164Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2023-02-10T07:30:49.196Z - info: [ui] launching: 3.1.1-linux1 (Linux 5.15.0-58-generic)
+2023-02-10T07:30:49.197Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2023-02-10T07:30:49.235Z - error: [ui] Error reporting stats:
+TypeError: Failed to fetch
+    at sF.constructor.post (/home/franno/webpack:/[name]/app/src/lib/stats/stats-store.ts:1908:12)
+    at sF.constructor.reportStats (/home/franno/webpack:/[name]/app/src/lib/stats/stats-store.ts:479:35)
+2023-02-10T07:30:49.274Z - warn: [ui] failed fetching open PRs for repository Frann0/hangman
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at uF.constructor.fetchAndStoreOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at uF.constructor.fetchAndStorePullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2023-02-10T07:30:49.275Z - error: [ui] Error refreshing pull requests for 'Frann0/hangman'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at uF.constructor.fetchAndStoreOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at uF.constructor.fetchAndStorePullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2023-02-10T07:31:10.670Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.676Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.677Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-10T07:31:10.706Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/Dev-vault.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:10.765Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/PersonalWebsite'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.768Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/PersonalWebsite'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.768Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-10T07:31:10.782Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/PersonalWebsite.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:10.895Z - warn: [ui] fetchRepository: an error occurred for 'Loopie-games/EmilseBilseFrontend'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.899Z - warn: [ui] fetchRepository: an error occurred for 'Loopie-games/EmilseBilseFrontend'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.899Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EmilseBilseFrontend - Frann0 (has token)
+2023-02-10T07:31:10.916Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Loopie-games/EmilseBilseFrontend.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:10.966Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.968Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Frann0'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:10.969Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-10T07:31:10.989Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/Frann0.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.044Z - warn: [ui] fetchRepository: an error occurred for 'ceci6182/RitaTalkApp'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.050Z - warn: [ui] fetchRepository: an error occurred for 'ceci6182/RitaTalkApp'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.050Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-10T07:31:11.067Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/ceci6182/RitaTalkApp.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.109Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.113Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.113Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-10T07:31:11.130Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/Dev-vault.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.192Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Firebase'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.195Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Firebase'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.195Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Firebase - Frann0 (has token)
+2023-02-10T07:31:11.210Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/Firebase.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.260Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/redux'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.263Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/redux'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/franno/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at ka.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3256:11)
+    at ka.refreshAllRepositories (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-02-10T07:31:11.264Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: redux - Frann0 (has token)
+2023-02-10T07:31:11.278Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/redux.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.299Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 8 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-02-10T07:31:11.550Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/hangman.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:11.594Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchPushControl (/home/franno/webpack:/[name]/app/src/lib/api.ts:1319:35)
+    at Vn.refreshBranchProtectionState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1099:37)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4740:20
+    at Vn.withPushPullFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4252:5)
+    at Vn.performFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4691:5)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-02-10T07:31:11.676Z - warn: [ui] getFetchPollInterval: failed for Frann0/hangman
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/franno/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at fo.getFetchInterval (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-02-10T07:31:29.554Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/express to store
+2023-02-10T07:31:41.863Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchProtectedBranches (/home/franno/webpack:/[name]/app/src/lib/api.ts:1347:35)
+    at Vn.updateBranchProtectionsFromAPI (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3837:32)
+    at Vn._selectRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1686:10)
+2023-02-10T07:31:41.895Z - warn: [ui] fetchRepository: an error occurred for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at Vn.repositoryWithRefreshedGitHubRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:3793:31)
+2023-02-10T07:31:41.925Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/Dev-vault.git/': Could not resolve host: github.com
+
+2023-02-10T07:31:41.945Z - warn: [ui] fetchIssues: failed for repository Frann0/Dev-vault
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/franno/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at oF.constructor.refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1798:5)
+2023-02-10T07:31:41.945Z - warn: [ui] Unable to fetch issues for Frann0/Dev-vault
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/franno/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at oF.constructor.refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1798:5)
+2023-02-10T07:31:41.977Z - warn: [ui] fetchMentionables: failed for Frann0/Dev-vault
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchMentionables (/home/franno/webpack:/[name]/app/src/lib/api.ts:1469:35)
+    at rF.constructor.updateMentionables (/home/franno/webpack:/[name]/app/src/lib/stores/github-user-store.ts:90:32)
+2023-02-10T07:31:42.033Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchPushControl (/home/franno/webpack:/[name]/app/src/lib/api.ts:1319:35)
+    at Vn.refreshBranchProtectionState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1099:37)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4740:20
+    at Vn.withPushPullFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4252:5)
+    at Vn.performFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4691:5)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-02-10T07:31:42.056Z - warn: [ui] failed fetching open PRs for repository Frann0/Dev-vault
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at uF.constructor.fetchAndStoreOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at uF.constructor.fetchAndStorePullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2023-02-10T07:31:42.056Z - error: [ui] Error refreshing pull requests for 'Frann0/Dev-vault'
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at uF.constructor.fetchAndStoreOpenPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at uF.constructor.fetchAndStorePullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/franno/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2023-02-10T07:31:42.123Z - warn: [ui] getFetchPollInterval: failed for Frann0/Dev-vault
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/franno/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at fo.getFetchInterval (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-02-10T07:31:42.137Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-10T07:32:23.792Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/testExpress to store
+2023-02-10T07:32:29.693Z - warn: [ui] fetchOrgs: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchOrgs (/home/franno/webpack:/[name]/app/src/lib/api.ts:843:25)
+    at LM.fetchOrgs (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:59:31)
+    at LM.componentWillMount (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:46:10)
+    at di (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:135:85)
+    at Eo (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:167:161)
+    at /home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:180:30
+    at Ls (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:232:22)
+2023-02-10T07:32:40.529Z - info: [ui] [Timing] Action 'create commit' for 'testExpress' took 0.998s
+2023-02-10T07:32:41.266Z - warn: [ui] fetchOrgs: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/franno/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchOrgs (/home/franno/webpack:/[name]/app/src/lib/api.ts:843:25)
+    at LM.fetchOrgs (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:59:31)
+    at LM.componentWillMount (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:46:10)
+    at di (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:135:85)
+    at Eo (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:167:161)
+    at /home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:180:30
+    at Ls (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:232:22)
+2023-02-10T07:32:42.818Z - error: [ui] createRepository: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.createRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:859:35)
+    at Vn._publishRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4419:37)
+    at Object.publishRepository (/home/franno/webpack:/[name]/app/src/ui/dispatcher/dispatcher.ts:727:26)
+    at Object.publishRepository [as onSubmit] (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish.tsx:293:35)
+    at onSubmit (/home/franno/webpack:/[name]/app/src/ui/dialog/dialog.tsx:560:18)
+    at Object.l (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:14:428)
+    at f (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:118)
+    at /home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:172
+2023-02-10T07:32:57.295Z - error: [ui] createRepository: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.createRepository (/home/franno/webpack:/[name]/app/src/lib/api.ts:859:35)
+    at Vn._publishRepository (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4419:37)
+    at Object.publishRepository (/home/franno/webpack:/[name]/app/src/ui/dispatcher/dispatcher.ts:727:26)
+    at Object.publishRepository [as onSubmit] (/home/franno/webpack:/[name]/app/src/ui/publish-repository/publish.tsx:293:35)
+    at onSubmit (/home/franno/webpack:/[name]/app/src/ui/dialog/dialog.tsx:560:18)
+    at Object.l (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:14:428)
+    at f (/home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:118)
+    at /home/franno/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:172
+2023-02-10T07:33:43.084Z - info: [ui] Executing push: git -c credential.helper= push origin master --set-upstream --progress (took 33.632s)
+2023-02-10T07:33:46.379Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.298s)
+2023-02-10T07:39:57.184Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/testExpress' took 0.207s
+2023-02-10T07:39:58.277Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: testExpress - Frann0 (has token)
+2023-02-10T07:40:01.373Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 3.090s)
+2023-02-10T07:40:02.502Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.127s)
+2023-02-10T07:40:03.640Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.137s)
+2023-02-10T07:43:16.605Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/express-socket to store
+2023-02-10T07:43:23.443Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.438s)
+2023-02-10T07:43:24.676Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.227s)
+2023-02-10T07:43:25.679Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.002s)
+2023-02-10T07:43:26.333Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-10T07:46:27.965Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/express-socket' took 0.493s
+2023-02-10T07:46:28.888Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: express-socket - Frann0 (has token)
+2023-02-10T07:46:30.139Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-10T07:46:32.475Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.334s)
+2023-02-10T07:46:36.116Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 3.633s)
+2023-02-10T07:46:45.710Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 17.3s of which 0.0s paused, total 17.3s
+2023-02-10T07:46:55.793Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 26.898s)
+2023-02-10T07:46:56.999Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.194s)
+2023-02-10T07:46:58.047Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.047s)
+2023-02-10T08:38:33.398Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-10T08:38:36.119Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-10T08:38:36.862Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 3.450s)
+2023-02-10T08:38:38.611Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.748s)
+2023-02-10T08:38:44.509Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 8.7s of which 4.3s paused, total 13.0s
+2023-02-10T09:04:30.790Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.587s)
+2023-02-10T09:04:32.122Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.331s)

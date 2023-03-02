@@ -1,0 +1,13 @@
+2023-02-13T10:34:32.020Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-13T10:34:44.025Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 4.5s of which 9.2s paused, total 13.7s
+2023-02-13T11:42:44.203Z - info: [ui] [BranchPruner] Last prune took place 17 hours ago - skipping
+2023-02-13T15:30:07.613Z - info: [ui] Stats reported.
+2023-02-13T15:42:44.188Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2023-02-13T15:58:37.403Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.007s)
+2023-02-13T17:56:23.227Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-13T18:06:08.247Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.712s)
+2023-02-13T18:24:43.179Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 5.6s of which 22658.1s paused, total 22663.7s
+2023-02-13T18:27:00.834Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-13T18:27:01.970Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.127s)
+2023-02-13T18:34:48.644Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 4.9s of which 464.7s paused, total 469.6s
+2023-02-13T20:07:49.118Z - info: [ui] [BranchPruner] No branches to prune.

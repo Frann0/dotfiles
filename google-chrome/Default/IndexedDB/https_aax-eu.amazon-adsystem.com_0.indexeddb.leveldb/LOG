@@ -1,0 +1,6 @@
+2023/01/24-22:59:33.174 2f162 Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_aax-eu.amazon-adsystem.com_0.indexeddb.leveldb since it was missing.
+2023/01/24-22:59:33.177 2f162 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_aax-eu.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/24-22:59:35.814 304a0 Level-0 table #5: started
+2023/01/24-22:59:35.814 304a0 Level-0 table #5: 403 bytes OK
+2023/01/24-22:59:35.815 304a0 Delete type=0 #3
+2023/01/24-22:59:35.816 304a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

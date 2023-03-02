@@ -1,0 +1,71 @@
+2023-02-04T11:47:27.498Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ceci6182/RitaTalkApp.git - Frann0 (has token)
+2023-02-04T11:47:28.727Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=master clone --recursive --progress -- https://github.com/ceci6182/RitaTalkApp.git /home/franno/Documents/GitHub/RitaTalkApp (took 1.203s)
+2023-02-04T11:47:28.737Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/RitaTalkApp to store
+2023-02-04T11:47:28.942Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-04T11:47:29.161Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-04T11:47:30.361Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-04T12:04:03.354Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.4s of which 0.0s paused, total 1.4s
+2023-02-04T12:04:05.738Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-04T12:18:33.140Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.200s)
+2023-02-04T12:20:15.034Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.5s of which 0.0s paused, total 1.5s
+2023-02-04T12:20:21.976Z - info: [ui] [Timing] Action 'create branch' for 'ceci6182/RitaTalkApp' took 0.034s
+2023-02-04T12:20:23.545Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-04T12:20:23.666Z - info: [ui] [Timing] Action 'stash and checkout' for 'ceci6182/RitaTalkApp' took 0.116s
+2023-02-04T12:20:24.775Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-04T12:20:25.791Z - info: [ui] Executing push: git -c credential.helper= push origin Test-cols --set-upstream --progress (took 1.002s)
+2023-02-04T12:20:35.881Z - info: [ui] [Timing] Action 'create commit' for 'ceci6182/RitaTalkApp' took 0.074s
+2023-02-04T12:20:36.909Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-04T12:20:37.918Z - info: [ui] Executing push: git -c credential.helper= push origin Test-cols:Test-cols --progress (took 1.007s)
+2023-02-04T12:48:14.121Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.5s of which 0.0s paused, total 1.5s
+2023-02-04T12:49:39.111Z - info: [ui] [Timing] Action 'create commit' for 'ceci6182/RitaTalkApp' took 0.065s
+2023-02-04T12:49:39.877Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: RitaTalkApp - Frann0 (has token)
+2023-02-04T12:49:40.998Z - info: [ui] Executing push: git -c credential.helper= push origin Test-cols:Test-cols --progress (took 1.105s)
+2023-02-04T14:58:09.600Z - info: [ui] Stats reported.
+2023-02-04T16:04:37.093Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.9s of which 9181.5s paused, total 9183.4s
+2023-02-04T16:15:00.516Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2023-02-04T16:15:00.713Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2023-02-04T18:42:07.788Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.4s of which 0.0s paused, total 1.4s
+2023-02-04T20:15:00.515Z - info: [ui] [BranchPruner] Last prune took place 8 hours ago - skipping
+2023-02-04T20:15:00.697Z - info: [ui] [BranchPruner] Last prune took place 8 hours ago - skipping
+2023-02-04T21:48:27.339Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.4s of which 0.0s paused, total 1.4s
+2023-02-04T21:48:28.406Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-04T21:52:11.424Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2023-02-04T21:53:10.492Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/Obsidian-vault' took 0.265s
+2023-02-04T21:53:11.553Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Obsidian-vault - Frann0 (has token)
+2023-02-04T21:53:13.121Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.549s)
+2023-02-04T22:01:34.499Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Obsidian-vault - Frann0 (has token)
+2023-02-04T22:01:35.525Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.012s)
+2023-02-04T22:03:17.273Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Dev-vault to store
+2023-02-04T22:04:13.212Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Dev-vault/.obsidian/app.json'
+2023-02-04T22:04:14.136Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-02-04T22:06:36.596Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.514s)
+2023-02-04T22:06:38.545Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-04T22:07:24.015Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/.obsidian/workspace.json'
+2023-02-04T22:07:26.557Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/test/test.md'
+2023-02-04T22:07:27.445Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/.obsidian/workspace.json'
+2023-02-04T22:07:27.859Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/test/test.md'
+2023-02-04T22:07:31.513Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/.obsidian/workspace.json'
+2023-02-04T22:07:31.960Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/test/test.md'
+2023-02-04T22:23:28.006Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-02-04T22:24:23.625Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/.obsidian/plugins/obsidian-git/data.json'
+2023-02-04T22:24:27.126Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.obsidian/plugins/obsidian-git/data.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2023-02-04T22:24:27.128Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/Dev-vault' took 0.033s

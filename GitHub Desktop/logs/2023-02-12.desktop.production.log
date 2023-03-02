@@ -1,0 +1,7 @@
+2023-02-12T12:17:22.711Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 3.553s)
+2023-02-12T12:17:26.338Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 3.604s)
+2023-02-12T15:12:05.164Z - info: [ui] Stats reported.
+2023-02-12T18:45:48.054Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-12T18:45:48.569Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 459.441s)
+2023-02-12T19:12:45.385Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.012s)
+2023-02-12T19:45:06.037Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.380s)

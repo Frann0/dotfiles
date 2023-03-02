@@ -1,0 +1,1 @@
+import{styleStorageHandler}from"./style-messenger.js";import{optionsStorageHandler}from"./options-messenger.js";const initStorageHandler=async()=>{chrome.storage.onChanged.addListener(async(...e)=>{styleStorageHandler(...e),optionsStorageHandler(...e)})};export{initStorageHandler};

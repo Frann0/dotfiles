@@ -1,0 +1,12 @@
+2023/02/19-19:30:05.593 38da Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_help.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/19-19:30:05.593 38da Recovering log #4
+2023/02/19-19:30:05.594 38da Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_help.twitch.tv_0.indexeddb.leveldb/000004.log 
+2023/02/19-19:30:06.860 38da Level-0 table #8: started
+2023/02/19-19:30:06.876 38da Level-0 table #8: 1425368 bytes OK
+2023/02/19-19:30:06.877 38da Delete type=0 #4
+2023/02/19-19:30:06.879 38da Compacting 1@1 + 1@2 files
+2023/02/19-19:30:06.944 38da Generated table #9@1: 1904 keys, 1131241 bytes
+2023/02/19-19:30:06.944 38da Compacted 1@1 + 1@2 files => 1131241 bytes
+2023/02/19-19:30:06.945 38da compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/19-19:30:06.945 38da Delete type=2 #8
+2023/02/19-19:30:06.945 38da Delete type=2 #5

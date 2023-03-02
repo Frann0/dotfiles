@@ -1,0 +1,7 @@
+2023/02/16-11:25:48.637 311bf Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-11:25:48.637 311bf Recovering log #17
+2023/02/16-11:25:48.637 311bf Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/000017.log 
+2023/02/16-11:25:48.643 311bf Level-0 table #23: started
+2023/02/16-11:25:48.644 311bf Level-0 table #23: 593 bytes OK
+2023/02/16-11:25:48.645 311bf Delete type=0 #17
+2023/02/16-11:25:48.645 311bf Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,76 @@
+2023-01-24T13:09:39.574Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.083s)
+2023-01-24T13:11:10.645Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-01-24T13:18:06.200Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.122s
+2023-01-24T13:18:07.522Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T13:18:08.831Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.283s)
+2023-01-24T13:18:10.853Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.157s)
+2023-01-24T13:19:07.049Z - info: [ui] [BranchPruner] No branches to prune.
+2023-01-24T13:34:38.668Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-24T13:50:03.571Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.217s)
+2023-01-24T14:10:52.535Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.8s of which 0.0s paused, total 0.8s
+2023-01-24T14:20:22.272Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.044s)
+2023-01-24T14:30:43.553Z - info: [ui] [BranchPruner] No branches to prune.
+2023-01-24T15:32:38.437Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-01-24T15:45:46.202Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.119s
+2023-01-24T15:45:46.867Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T15:45:48.127Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.251s)
+2023-01-24T15:45:49.202Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.073s)
+2023-01-24T15:46:14.885Z - warn: [ui] getFetchPollInterval: failed for Frann0/PersonalWebsite
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/franno/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at fo.getFetchInterval (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-01-24T17:07:28.971Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-24T17:07:32.543Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.094s
+2023-01-24T17:07:33.786Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T17:07:35.033Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.224s)
+2023-01-24T17:07:36.048Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.013s)
+2023-01-24T18:03:59.490Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-01-24T18:04:09.527Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.175s
+2023-01-24T18:04:10.089Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:04:11.683Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.589s)
+2023-01-24T18:10:49.695Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.125s
+2023-01-24T18:11:23.874Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.118s
+2023-01-24T18:15:46.270Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.131s
+2023-01-24T18:20:40.563Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-24T18:20:44.635Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.119s
+2023-01-24T18:23:38.379Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.103s
+2023-01-24T18:27:54.173Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.128s
+2023-01-24T18:32:36.151Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.138s
+2023-01-24T18:35:44.145Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-01-24T18:35:44.660Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:35:45.981Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.302s)
+2023-01-24T18:38:53.470Z - info: [ui] [BranchPruner] Last prune took place 5 hours ago - skipping
+2023-01-24T18:40:00.067Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.131s
+2023-01-24T18:40:01.069Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:40:03.061Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.962s)
+2023-01-24T18:40:04.201Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.133s)
+2023-01-24T18:44:03.688Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.140s
+2023-01-24T18:44:04.444Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:44:05.714Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.267s)
+2023-01-24T18:44:46.622Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:47:50.045Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.102s
+2023-01-24T18:47:50.595Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T18:47:52.205Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.609s)
+2023-01-24T19:21:44.868Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.005s)
+2023-01-24T21:11:59.174Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/PersonalWebsite.git/': Could not resolve host: github.com
+
+2023-01-24T21:12:00.213Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchPushControl (/home/franno/webpack:/[name]/app/src/lib/api.ts:1319:35)
+    at Vn.refreshBranchProtectionState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1099:37)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4740:20
+    at Vn.withPushPullFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4252:5)
+    at Vn.performFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4691:5)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-01-24T21:30:37.456Z - info: [ui] [BranchPruner] Last prune took place 7 hours ago - skipping
+2023-01-24T22:20:41.830Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-24T22:20:49.139Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.822s
+2023-01-24T22:20:49.581Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-24T22:20:53.847Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 4.263s)

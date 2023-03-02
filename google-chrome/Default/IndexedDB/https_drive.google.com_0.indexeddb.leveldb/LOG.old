@@ -1,0 +1,25 @@
+2023/03/02-11:40:57.931 37a7 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/02-11:40:57.931 37a7 Recovering log #345
+2023/03/02-11:40:57.942 37a7 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000345.log 
+2023/03/02-11:41:15.311 37a8 Level-0 table #356: started
+2023/03/02-11:41:15.350 37a8 Level-0 table #356: 1570241 bytes OK
+2023/03/02-11:41:15.352 37a8 Delete type=0 #345
+2023/03/02-11:41:15.356 37a8 Compacting 1@1 + 7@2 files
+2023/03/02-11:41:15.409 37a8 Generated table #357@1: 11059 keys, 2139264 bytes
+2023/03/02-11:41:15.457 37a8 Generated table #358@1: 4537 keys, 2130873 bytes
+2023/03/02-11:41:15.497 37a8 Generated table #359@1: 2453 keys, 2119781 bytes
+2023/03/02-11:41:15.537 37a8 Generated table #360@1: 2224 keys, 2136926 bytes
+2023/03/02-11:41:15.575 37a8 Generated table #361@1: 2291 keys, 2125087 bytes
+2023/03/02-11:41:15.614 37a8 Generated table #362@1: 1934 keys, 2124138 bytes
+2023/03/02-11:41:15.654 37a8 Generated table #363@1: 2182 keys, 2132675 bytes
+2023/03/02-11:41:15.674 37a8 Generated table #364@1: 13577 keys, 384386 bytes
+2023/03/02-11:41:15.674 37a8 Compacted 1@1 + 7@2 files => 15293130 bytes
+2023/03/02-11:41:15.675 37a8 compacted to: files[ 0 0 8 0 0 0 0 ]
+2023/03/02-11:41:15.676 37a8 Delete type=2 #352
+2023/03/02-11:41:15.676 37a8 Delete type=2 #351
+2023/03/02-11:41:15.676 37a8 Delete type=2 #356
+2023/03/02-11:41:15.676 37a8 Delete type=2 #348
+2023/03/02-11:41:15.676 37a8 Delete type=2 #349
+2023/03/02-11:41:15.676 37a8 Delete type=2 #347
+2023/03/02-11:41:15.676 37a8 Delete type=2 #353
+2023/03/02-11:41:15.676 37a8 Delete type=2 #350

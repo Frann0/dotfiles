@@ -1,0 +1,1 @@
+chrome.devtools.panels.elements.createSidebarPane("Amino",function(e){e.setPage("index.html#/devtools")});

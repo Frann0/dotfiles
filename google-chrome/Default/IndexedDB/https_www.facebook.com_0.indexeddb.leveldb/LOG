@@ -1,0 +1,13 @@
+2023/02/16-15:42:21.685 311bf Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-15:42:21.685 311bf Recovering log #18
+2023/02/16-15:42:21.685 311bf Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000018.log 
+2023/02/16-15:42:23.235 311bf Level-0 table #22: started
+2023/02/16-15:42:23.235 311bf Level-0 table #22: 513 bytes OK
+2023/02/16-15:42:23.236 311bf Delete type=0 #18
+2023/02/16-15:42:23.236 311bf Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 68 : 1
+2023/02/16-15:42:23.237 311bf Compacting 1@0 + 1@1 files
+2023/02/16-15:42:23.237 311bf Generated table #23@0: 4 keys, 259 bytes
+2023/02/16-15:42:23.237 311bf Compacted 1@0 + 1@1 files => 259 bytes
+2023/02/16-15:42:23.238 311bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/16-15:42:23.238 311bf Delete type=2 #22
+2023/02/16-15:42:23.238 311bf Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 68 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

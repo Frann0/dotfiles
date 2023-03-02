@@ -1,0 +1,21 @@
+2023-01-30T10:50:18.479Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-30T11:43:10.006Z - info: [ui] [BranchPruner] No branches to prune.
+2023-01-30T12:22:02.032Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.273s)
+2023-01-30T12:22:03.166Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.083s)
+2023-01-30T12:52:20.810Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.098s)
+2023-01-30T14:31:33.453Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2023-01-30T15:00:07.568Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.8s of which 0.0s paused, total 0.8s
+2023-01-30T15:00:12.199Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.145s
+2023-01-30T15:00:12.919Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-30T15:00:14.263Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.335s)
+2023-01-30T15:32:39.385Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-01-30T15:32:39.400Z - info: [ui] [AppStore] found account: Frann0 (Frann0)
+2023-01-30T15:32:39.455Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2023-01-30T15:32:39.942Z - info: [ui] launching: 3.1.1-linux1 (Linux 5.15.0-58-generic)
+2023-01-30T15:32:39.945Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2023-01-30T15:32:40.047Z - info: [ui] Subscribed 'Frann0' to Alive channel
+2023-01-30T15:32:57.370Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.252s)
+2023-01-30T16:34:49.466Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.8s of which 0.0s paused, total 0.8s
+2023-01-30T16:34:53.538Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.159s
+2023-01-30T16:34:54.497Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-30T16:34:55.709Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.187s)

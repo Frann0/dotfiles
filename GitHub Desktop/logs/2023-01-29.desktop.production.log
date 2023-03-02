@@ -1,0 +1,45 @@
+2023-01-29T09:57:50.088Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/Frann0/PersonalWebsite.git/': Could not resolve host: github.com
+
+2023-01-29T09:57:50.163Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchPushControl (/home/franno/webpack:/[name]/app/src/lib/api.ts:1319:35)
+    at Vn.refreshBranchProtectionState (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:1099:37)
+    at /home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4740:20
+    at Vn.withPushPullFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4252:5)
+    at Vn.performFetch (/home/franno/webpack:/[name]/app/src/lib/stores/app-store.ts:4691:5)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-01-29T09:57:50.311Z - warn: [ui] getFetchPollInterval: failed for Frann0/PersonalWebsite
+TypeError: Failed to fetch
+    at Tt (/home/franno/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/franno/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/franno/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at fo.getFetchInterval (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at fo.performAndScheduleFetch (/home/franno/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-01-29T10:01:09.008Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:01:10.101Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:01:12.147Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:01:16.234Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:01:24.478Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:01:41.110Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:02:14.176Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:03:14.228Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:04:14.286Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:05:14.336Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:06:14.387Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:07:14.453Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-01-29T10:15:17.356Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-29T10:15:18.064Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-29T10:15:19.362Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.285s)
+2023-01-29T10:15:21.379Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-29T16:26:10.254Z - info: [ui] Stats reported.
+2023-01-29T16:35:11.147Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-01-29T16:51:32.448Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.416s)
+2023-01-29T16:54:14.433Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-01-29T17:03:58.587Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.199s
+2023-01-29T17:04:01.377Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-01-29T17:04:02.610Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.205s)
+2023-01-29T17:17:25.308Z - info: [ui] [BranchPruner] No branches to prune.

@@ -1,0 +1,56 @@
+2023-02-08T12:49:03.384Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-08T12:50:27.480Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 3.6s of which 81.8s paused, total 85.4s
+2023-02-08T12:51:47.067Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/hangman to store
+2023-02-08T12:51:52.175Z - error: [ui] `git remote add origin https://github.com/Frann0/hangman.git` exited with an unexpected code: 128.
+stderr:
+error: could not lock config file .git/config: Permission denied
+fatal: could not set 'remote.origin.url' to 'https://github.com/Frann0/hangman.git'
+
+2023-02-08T12:52:16.147Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-08T12:52:16.455Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-08T12:52:20.573Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/hangman to store
+2023-02-08T12:53:53.819Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.218s)
+2023-02-08T12:53:55.975Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-08T12:55:40.491Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:57:53.232Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/hangman' took 0.064s
+2023-02-08T12:57:54.255Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T12:57:55.672Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.411s)
+2023-02-08T12:59:39.390Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:59:40.455Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:59:44.580Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:59:46.425Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:59:49.566Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T12:59:51.102Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T13:00:25.934Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T13:00:29.332Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T13:00:31.918Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T13:00:54.712Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-08T13:01:11.501Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Frann0/hangman.git - Frann0 (has token)
+2023-02-08T13:01:12.529Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Frann0/hangman.git /home/franno/Documents/GitHub/hangman (took 1.003s)
+2023-02-08T13:01:12.574Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/hangman/CachedExtensions/user'
+2023-02-08T13:01:12.650Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2023-02-08T14:52:18.550Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-08T14:52:20.971Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 9 repositories took 4.6s of which 0.0s paused, total 4.6s
+2023-02-08T14:52:22.555Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/hangman' took 0.087s
+2023-02-08T14:52:23.337Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T14:52:24.659Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.316s)
+2023-02-08T15:07:34.629Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-08T15:07:37.195Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 9 repositories took 4.2s of which 0.0s paused, total 4.2s
+2023-02-08T15:24:00.278Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.804s)
+2023-02-08T16:41:45.061Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-08T16:41:53.727Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 9 repositories took 3.7s of which 6.5s paused, total 10.1s
+2023-02-08T16:55:37.554Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/hangman' took 0.082s
+2023-02-08T16:55:38.792Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T16:55:39.901Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.103s)
+2023-02-08T18:10:54.089Z - info: [ui] [BranchPruner] Last prune took place 5 hours ago - skipping
+2023-02-08T18:38:10.747Z - info: [ui] Stats reported.
+2023-02-08T19:15:25.749Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-08T19:15:28.180Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 9 repositories took 4.3s of which 0.0s paused, total 4.3s
+2023-02-08T19:15:35.399Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/hangman' took 0.064s
+2023-02-08T19:15:36.190Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T19:15:37.389Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.183s)
+2023-02-08T19:24:59.850Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/hangman' took 0.075s
+2023-02-08T19:25:00.535Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: hangman - Frann0 (has token)
+2023-02-08T19:25:01.829Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.290s)
+2023-02-08T19:25:03.574Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.743s)

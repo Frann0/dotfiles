@@ -1,0 +1,6 @@
+2023/02/22-17:05:56.995 3 Reusing MANIFEST /home/franno/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/02/22-17:05:56.997 3 Recovering log #1120
+2023/02/22-17:05:56.999 3 Reusing old log /home/franno/.config/google-chrome/Default/Local Storage/leveldb/001120.log 
+2023/02/22-17:06:44.665 3 Level-0 table #1127: started
+2023/02/22-17:06:44.668 3 Level-0 table #1127: 25443 bytes OK
+2023/02/22-17:06:44.669 3 Delete type=0 #1120

@@ -1,0 +1,15 @@
+2023/02/21-20:49:12.642 1889 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/21-20:49:12.643 1889 Recovering log #14
+2023/02/21-20:49:12.643 1889 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000014.log 
+2023/02/21-20:49:44.896 188a Level-0 table #19: started
+2023/02/21-20:49:44.898 188a Level-0 table #19: 190 bytes OK
+2023/02/21-20:49:44.900 188a Delete type=0 #14
+2023/02/21-20:49:44.901 188a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/02/21-20:49:44.901 188a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 28354 : 1
+2023/02/21-20:49:44.901 188a Compacting 1@1 + 1@2 files
+2023/02/21-20:49:44.903 188a Generated table #20@1: 167 keys, 2734 bytes
+2023/02/21-20:49:44.904 188a Compacted 1@1 + 1@2 files => 2734 bytes
+2023/02/21-20:49:44.905 188a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/21-20:49:44.906 188a Delete type=2 #19
+2023/02/21-20:49:44.906 188a Delete type=2 #16
+2023/02/21-20:49:44.906 188a Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 28354 : 1 .. (end); will stop at (end)

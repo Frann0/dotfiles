@@ -1,0 +1,26 @@
+2023/02/16-11:33:19.935 311bf Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
+2023/02/16-11:33:19.936 311bf Recovering log #81
+2023/02/16-11:33:19.936 311bf Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/000081.log 
+2023/02/16-11:33:20.397 31f58 Level-0 table #86: started
+2023/02/16-11:33:20.398 31f58 Level-0 table #86: 12768 bytes OK
+2023/02/16-11:33:20.399 31f58 Delete type=0 #81
+2023/02/16-11:33:20.400 311bf Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/02/16-15:35:04.589 311c0 Level-0 table #88: started
+2023/02/16-15:35:04.590 311c0 Level-0 table #88: 3262 bytes OK
+2023/02/16-15:35:04.591 311c0 Delete type=0 #85
+2023/02/16-15:35:04.591 311c0 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x008\x009\x000\x001\x002\x004\x002\x001\x003\x004\x004\x00:\x00w\x00e\x00b\x00:\x000\x007\x001\x00d\x007\x00b\x000\x005\x00c\x00f\x007\x005\x007\x008\x001\x00e\x00a\x00d\x003\x00e\x008\x005' @ 2584 : 1
+2023/02/16-15:35:04.591 311c0 Compacting 1@0 + 1@1 files
+2023/02/16-15:35:04.592 311c0 Generated table #89@0: 62 keys, 4521 bytes
+2023/02/16-15:35:04.592 311c0 Compacted 1@0 + 1@1 files => 4521 bytes
+2023/02/16-15:35:04.593 311c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/16-15:35:04.593 311c0 Delete type=2 #88
+2023/02/16-15:35:04.593 311c0 Delete type=2 #86
+2023/02/16-15:35:04.593 311c0 Manual compaction at level-0 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x008\x009\x000\x001\x002\x004\x002\x001\x003\x004\x004\x00:\x00w\x00e\x00b\x00:\x000\x007\x001\x00d\x007\x00b\x000\x005\x00c\x00f\x007\x005\x007\x008\x001\x00e\x00a\x00d\x003\x00e\x008\x005' @ 2584 : 1 .. (end); will stop at (end)
+2023/02/16-15:35:04.593 311c0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x008\x009\x000\x001\x002\x004\x002\x001\x003\x004\x004\x00:\x00w\x00e\x00b\x00:\x000\x007\x001\x00d\x007\x00b\x000\x005\x00c\x00f\x007\x005\x007\x008\x001\x00e\x00a\x00d\x003\x00e\x008\x005' @ 2627 : 1
+2023/02/16-15:35:04.593 311c0 Compacting 1@1 + 1@2 files
+2023/02/16-15:35:04.594 311c0 Generated table #90@1: 51 keys, 4463 bytes
+2023/02/16-15:35:04.594 311c0 Compacted 1@1 + 1@2 files => 4463 bytes
+2023/02/16-15:35:04.594 311c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/16-15:35:04.594 311c0 Delete type=2 #89
+2023/02/16-15:35:04.594 311c0 Delete type=2 #83
+2023/02/16-15:35:04.595 311c0 Manual compaction at level-1 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x008\x009\x000\x001\x002\x004\x002\x001\x003\x004\x004\x00:\x00w\x00e\x00b\x00:\x000\x007\x001\x00d\x007\x00b\x000\x005\x00c\x00f\x007\x005\x007\x008\x001\x00e\x00a\x00d\x003\x00e\x008\x005' @ 2627 : 1 .. (end); will stop at (end)

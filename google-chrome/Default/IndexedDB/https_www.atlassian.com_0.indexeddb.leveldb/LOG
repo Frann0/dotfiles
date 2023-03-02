@@ -1,0 +1,15 @@
+2023/02/19-21:16:35.228 1889 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/19-21:16:35.228 1889 Recovering log #4
+2023/02/19-21:16:35.228 1889 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/000004.log 
+2023/02/20-12:47:47.276 188a Level-0 table #8: started
+2023/02/20-12:47:47.280 188a Level-0 table #8: 29373 bytes OK
+2023/02/20-12:47:47.281 188a Delete type=0 #4
+2023/02/20-12:47:47.282 188a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/02/20-12:47:47.282 188a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01"\x04\x02\x01\x09\x00m\x00a\x00r\x00k\x00e\x00t\x00i\x00n\x00g\x03\x00\xc0\xa6#\xb5fxB\x00\x01$\x002\x009\x00e\x009\x00f\x007\x002\x003\x00-\x006\x002\x000\x009\x00-\x004\x00d\x00f\x00b\x00-\x009\x001\x002\x00a\x00-\x002\x00a\x00a\x007\x00f\x005\x00b\x007\x003\x000\x00f\x005' @ 1134 : 1
+2023/02/20-12:47:47.282 188a Compacting 1@1 + 1@2 files
+2023/02/20-12:47:47.283 188a Generated table #9@1: 95 keys, 4892 bytes
+2023/02/20-12:47:47.283 188a Compacted 1@1 + 1@2 files => 4892 bytes
+2023/02/20-12:47:47.284 188a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/20-12:47:47.284 188a Delete type=2 #8
+2023/02/20-12:47:47.284 188a Delete type=2 #5
+2023/02/20-12:47:47.284 188a Manual compaction at level-1 from '\x00\x01\x01"\x04\x02\x01\x09\x00m\x00a\x00r\x00k\x00e\x00t\x00i\x00n\x00g\x03\x00\xc0\xa6#\xb5fxB\x00\x01$\x002\x009\x00e\x009\x00f\x007\x002\x003\x00-\x006\x002\x000\x009\x00-\x004\x00d\x00f\x00b\x00-\x009\x001\x002\x00a\x00-\x002\x00a\x00a\x007\x00f\x005\x00b\x007\x003\x000\x00f\x005' @ 1134 : 1 .. (end); will stop at (end)

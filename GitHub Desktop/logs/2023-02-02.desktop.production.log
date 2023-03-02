@@ -1,0 +1,52 @@
+2023-02-02T14:24:58.098Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-02-02T14:24:58.107Z - info: [ui] [AppStore] found account: Frann0 (Frann0)
+2023-02-02T14:24:58.520Z - info: [ui] launching: 3.1.1-linux1 (Linux 5.15.0-58-generic)
+2023-02-02T14:24:58.521Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2023-02-02T14:24:58.643Z - info: [ui] Subscribed 'Frann0' to Alive channel
+2023-02-02T14:24:58.897Z - info: [ui] [BranchPruner] Last prune took place 1 second ago - skipping
+2023-02-02T14:24:59.074Z - info: [ui] Stats reported.
+2023-02-02T14:25:03.944Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.066s
+2023-02-02T14:25:04.545Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-02T14:25:05.824Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.275s)
+2023-02-02T14:25:06.850Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.024s)
+2023-02-02T15:54:30.481Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.1s of which 0.0s paused, total 1.1s
+2023-02-02T15:55:28.112Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.078s
+2023-02-02T15:55:29.047Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-02T15:55:30.287Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.222s)
+2023-02-02T17:27:53.193Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-02-02T17:28:03.411Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Frann0/Frann0.git - Frann0 (has token)
+2023-02-02T17:28:04.174Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/Frann0 to store
+2023-02-02T17:28:04.305Z - info: [ui] [BranchPruner] Last prune took place 3 hours ago - skipping
+2023-02-02T17:28:04.587Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-02T17:29:54.426Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/Frann0' took 0.081s
+2023-02-02T17:29:55.222Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-02T17:29:56.802Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.574s)
+2023-02-02T17:43:52.378Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-02T17:43:52.559Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.0s of which 0.0s paused, total 1.0s
+2023-02-02T20:39:14.725Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.2s of which 0.0s paused, total 1.2s
+2023-02-02T20:39:16.814Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-02T20:39:18.509Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.684s)
+2023-02-02T20:39:20.698Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-02T20:39:21.270Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+stdout:
+Updating 363423f..2ae723c
+
+stderr:
+error: Your local changes to the following files would be overwritten by merge:
+	README.md
+Please commit your changes or stash them before you merge.
+Aborting
+
+(The error was parsed as 53: null)
+2023-02-02T20:39:22.530Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Frann0 - Frann0 (has token)
+2023-02-02T20:47:30.735Z - info: [ui] [BranchPruner] Last prune took place 6 hours ago - skipping
+2023-02-02T20:47:41.406Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.073s
+2023-02-02T20:47:42.083Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-02T20:47:43.232Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.144s)
+2023-02-02T21:01:11.551Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-02-02T21:01:16.736Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.122s
+2023-02-02T21:01:17.229Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-02T21:01:19.170Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.939s)
+2023-02-02T21:05:01.403Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.052s
+2023-02-02T21:05:02.814Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-02T21:05:03.915Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.099s)

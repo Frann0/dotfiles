@@ -1,0 +1,24 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/fish.profile
+RemoteTab=(%u) %H
+SessionGuid={f3ff83a8-beea-4ed8-939b-fdc837de6cc1}
+TabColor=
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEkAAAB+vwCAAAAAfsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAA7AAAB+gAAAKkA////AAAD3AAAAdEAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAcAHMAZQBzAHMAaQBvAG4AVABvAG8AbABiAGEAcgEAAAC+/////wAAAAAAAAAA
+XWAYLAND0 Height 2160x1440=524
+XWAYLAND0 Width 2160x1440=988
+XWAYLAND0 XPosition 2160x1440=0
+XWAYLAND0 YPosition 2160x1440=0

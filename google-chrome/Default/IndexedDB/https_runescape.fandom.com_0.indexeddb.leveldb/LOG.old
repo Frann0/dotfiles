@@ -1,0 +1,7 @@
+2023/02/24-20:00:38.778 37a7 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_runescape.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/24-20:00:38.778 37a7 Recovering log #3
+2023/02/24-20:00:38.781 37a7 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_runescape.fandom.com_0.indexeddb.leveldb/000003.log 
+2023/02/24-20:00:58.311 37a8 Level-0 table #5: started
+2023/02/24-20:00:58.314 37a8 Level-0 table #5: 56422 bytes OK
+2023/02/24-20:00:58.316 37a8 Delete type=0 #3
+2023/02/24-20:00:58.317 37a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

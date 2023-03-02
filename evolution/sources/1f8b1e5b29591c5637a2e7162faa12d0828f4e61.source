@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=mikehovedskov@gmail.com
+Enabled=true
+Parent=75c1659d57c72f216a65c15437fce575333dcd34
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=2d748218792493d381d644a276fe5af4a8eba9eb
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=mikehovedskov@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

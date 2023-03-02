@@ -1,0 +1,27 @@
+2023/01/20-21:24:23.096 e386 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_danskespil.dk_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/20-21:24:23.096 e386 Recovering log #3
+2023/01/20-21:24:23.096 e386 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_danskespil.dk_0.indexeddb.leveldb/000003.log 
+2023/01/20-22:54:41.914 f9da Level-0 table #5: started
+2023/01/20-22:54:41.930 f9da Level-0 table #5: 1481129 bytes OK
+2023/01/20-22:54:41.932 f9da Delete type=0 #3
+2023/01/21-00:24:41.909 11d70 Level-0 table #7: started
+2023/01/21-00:24:41.950 11d70 Level-0 table #7: 1471030 bytes OK
+2023/01/21-00:24:41.951 11d70 Delete type=0 #4
+2023/01/21-16:24:47.316 12073 Compacting 1@1 + 1@2 files
+2023/01/21-16:24:47.351 12073 Generated table #8@1: 98 keys, 55993 bytes
+2023/01/21-16:24:47.351 12073 Compacted 1@1 + 1@2 files => 55993 bytes
+2023/01/21-16:24:47.353 12073 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/21-16:24:47.353 12073 Delete type=2 #5
+2023/01/21-16:24:47.353 12073 Delete type=2 #7
+2023/01/21-17:14:57.551 12d33 Level-0 table #10: started
+2023/01/21-17:14:57.590 12d33 Level-0 table #10: 1091269 bytes OK
+2023/01/21-17:14:57.592 12d33 Delete type=0 #6
+2023/01/21-17:14:57.593 12d33 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/21-17:14:57.593 12d33 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01 \x000\x004\x00b\x007\x00e\x008\x009\x00f\x003\x005\x002\x00b\x00a\x00d\x00d\x002\x00e\x007\x00d\x003\x007\x009\x00c\x008\x002\x00a\x00b\x00c\x00e\x00e\x001\x00b' @ 14911 : 1
+2023/01/21-17:14:57.593 12d33 Compacting 1@1 + 1@2 files
+2023/01/21-17:14:57.600 12d33 Generated table #11@1: 95 keys, 55425 bytes
+2023/01/21-17:14:57.600 12d33 Compacted 1@1 + 1@2 files => 55425 bytes
+2023/01/21-17:14:57.601 12d33 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/21-17:14:57.601 12d33 Delete type=2 #8
+2023/01/21-17:14:57.601 12d33 Delete type=2 #10
+2023/01/21-17:14:57.601 12d33 Manual compaction at level-1 from '\x00\x01\x03\x02\x01 \x000\x004\x00b\x007\x00e\x008\x009\x00f\x003\x005\x002\x00b\x00a\x00d\x00d\x002\x00e\x007\x00d\x003\x007\x009\x00c\x008\x002\x00a\x00b\x00c\x00e\x00e\x001\x00b' @ 14911 : 1 .. (end); will stop at (end)

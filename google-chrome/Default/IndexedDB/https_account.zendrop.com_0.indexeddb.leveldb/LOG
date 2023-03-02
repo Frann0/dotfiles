@@ -1,0 +1,6 @@
+2023/02/08-16:36:29.423 557cf Creating DB /home/franno/.config/google-chrome/Default/IndexedDB/https_account.zendrop.com_0.indexeddb.leveldb since it was missing.
+2023/02/08-16:36:29.426 557cf Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_account.zendrop.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/08-16:36:55.012 557cd Level-0 table #5: started
+2023/02/08-16:36:55.014 557cd Level-0 table #5: 405 bytes OK
+2023/02/08-16:36:55.015 557cd Delete type=0 #3
+2023/02/08-16:36:55.015 557cd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

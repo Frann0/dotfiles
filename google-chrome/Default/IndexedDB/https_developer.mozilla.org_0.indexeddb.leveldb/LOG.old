@@ -1,0 +1,7 @@
+2023/02/01-09:33:10.367 c4c4 Reusing MANIFEST /home/franno/.config/google-chrome/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/01-09:33:10.367 c4c4 Recovering log #3
+2023/02/01-09:33:10.368 c4c4 Reusing old log /home/franno/.config/google-chrome/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/000003.log 
+2023/02/01-13:41:46.957 11810 Level-0 table #5: started
+2023/02/01-13:41:46.959 11810 Level-0 table #5: 28228 bytes OK
+2023/02/01-13:41:46.961 11810 Delete type=0 #3
+2023/02/01-13:41:46.962 11810 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

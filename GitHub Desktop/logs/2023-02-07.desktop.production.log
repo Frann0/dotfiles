@@ -1,0 +1,102 @@
+2023-02-07T10:32:38.694Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.363s)
+2023-02-07T10:32:40.120Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.408s)
+2023-02-07T10:32:40.630Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/Obsidian-vault/Dev Vault/Weekly/.obsidian/workspace.json'
+2023-02-07T10:35:53.207Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.obsidian/workspace.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2023-02-07T10:35:53.208Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/Dev-vault' took 0.039s
+2023-02-07T10:36:03.193Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-07T10:36:10.979Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.120s
+2023-02-07T10:36:11.916Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T10:36:17.977Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 6.052s)
+2023-02-07T10:57:18.196Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T10:57:19.991Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.784s)
+2023-02-07T10:57:20.185Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.068s
+2023-02-07T10:57:21.351Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T10:57:22.292Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.300s)
+2023-02-07T10:57:22.600Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 8.4s of which 0.0s paused, total 8.4s
+2023-02-07T10:57:25.227Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 3.867s)
+2023-02-07T10:57:26.385Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.156s)
+2023-02-07T10:57:27.754Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.368s)
+2023-02-07T10:58:26.203Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T14:43:26.033Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.075s
+2023-02-07T14:43:26.769Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T14:43:28.238Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.456s)
+2023-02-07T17:54:46.027Z - info: [ui] Stats reported.
+2023-02-07T18:30:24.150Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T18:30:25.933Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 3.3s of which 0.0s paused, total 3.3s
+2023-02-07T18:30:29.423Z - info: [ui] [Timing] Action 'create branch' for 'Frann0/PersonalWebsite' took 0.038s
+2023-02-07T18:30:31.198Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T18:30:31.324Z - info: [ui] [Timing] Action 'stash and checkout' for 'Frann0/PersonalWebsite' took 0.122s
+2023-02-07T18:30:38.105Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.067s
+2023-02-07T18:30:39.568Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T18:30:40.844Z - info: [ui] Executing push: git -c credential.helper= push origin redux-migration --set-upstream --progress (took 1.258s)
+2023-02-07T18:54:47.604Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T18:54:48.628Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.013s)
+2023-02-07T18:54:49.754Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 3.7s of which 0.0s paused, total 3.7s
+2023-02-07T18:54:50.158Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.075s
+2023-02-07T18:54:51.415Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T18:54:52.631Z - info: [ui] Executing push: git -c credential.helper= push origin redux-migration:redux-migration --progress (took 1.211s)
+2023-02-07T19:10:07.022Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T19:10:08.851Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 3.2s of which 0.0s paused, total 3.2s
+2023-02-07T19:10:18.560Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.058s
+2023-02-07T19:10:20.039Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T19:10:21.240Z - info: [ui] Executing push: git -c credential.helper= push origin redux-migration:redux-migration --progress (took 1.195s)
+2023-02-07T19:10:58.129Z - info: [ui] [AppStore] adding repository at /home/franno/Documents/GitHub/redux to store
+2023-02-07T19:11:06.515Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.323s)
+2023-02-07T19:11:07.630Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.113s)
+2023-02-07T19:11:09.175Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-07T19:13:53.948Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-02-07T19:15:34.317Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/redux' took 0.067s
+2023-02-07T19:15:35.647Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: redux - Frann0 (has token)
+2023-02-07T19:15:36.743Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.091s)
+2023-02-07T19:40:23.790Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T19:40:25.509Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 3.3s of which 0.0s paused, total 3.3s
+2023-02-07T19:40:28.899Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/redux' took 0.073s
+2023-02-07T19:40:30.491Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: redux - Frann0 (has token)
+2023-02-07T19:40:31.867Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.359s)
+2023-02-07T19:40:45.178Z - info: [ui] [BranchPruner] Last prune took place 9 hours ago - skipping
+2023-02-07T19:41:03.317Z - info: [ui] [BranchPruner] Last prune took place 30 minutes ago - skipping
+2023-02-07T19:41:04.686Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/redux' took 0.052s
+2023-02-07T19:41:05.900Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: redux - Frann0 (has token)
+2023-02-07T19:41:07.093Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.186s)
+2023-02-07T19:41:26.817Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 19.720s)
+2023-02-07T19:41:30.297Z - info: [ui] [BranchPruner] Last prune took place 9 hours ago - skipping
+2023-02-07T19:41:33.865Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T19:48:41.727Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Frann0/PersonalWebsite' took 0.000s
+2023-02-07T19:48:45.545Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T19:48:45.748Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/franno/Documents/GitHub/PersonalWebsite/src/reduxStores/store.tsx'
+2023-02-07T19:48:45.753Z - error: [ui] `git show HEAD:src/reduxStores/store.tsx` exited with an unexpected code: 128.
+stderr:
+fatal: path 'src/reduxStores/store.tsx' does not exist in 'HEAD'
+
+(The error was parsed as 32: The path does not exist on disk.)
+2023-02-07T19:48:47.084Z - error: [ui] Could not load old contents for syntax highlighting
+GitError: The path does not exist on disk.
+    at /home/franno/webpack:/[name]/app/src/lib/git/core.ts:247:11
+    at /home/franno/webpack:/[name]/app/src/lib/trampoline/trampoline-environment.ts:40:13
+    at /home/franno/webpack:/[name]/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/franno/webpack:/[name]/app/src/lib/git/show.ts:111:9
+    at async Promise.all (index 0)
+    at /home/franno/webpack:/[name]/app/src/ui/diff/syntax-highlighting/index.ts:111:23
+    at QS.loadFileContentsIfNeeded (/home/franno/webpack:/[name]/app/src/ui/diff/seamless-diff-switcher.tsx:259:11)
+2023-02-07T19:48:47.244Z - info: [ui] [Timing] Action 'stash and checkout' for 'Frann0/PersonalWebsite' took 1.699s
+2023-02-07T20:33:23.909Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Dev-vault - Frann0 (has token)
+2023-02-07T20:33:25.958Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 3.4s of which 0.5s paused, total 3.8s
+2023-02-07T20:36:22.686Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.082s
+2023-02-07T20:36:23.218Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T20:36:24.340Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.120s)
+2023-02-07T20:47:49.251Z - info: [ui] [Timing] Action 'create commit' for 'Frann0/PersonalWebsite' took 0.092s
+2023-02-07T20:47:50.169Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PersonalWebsite - Frann0 (has token)
+2023-02-07T20:47:51.372Z - info: [ui] Executing push: git -c credential.helper= push origin Master:Master --progress (took 1.197s)
